@@ -1,0 +1,15 @@
+Health-OK Project - Quick References
+
+Supported Diseases and Kaggle Datasets:
+1. Heart Disease Prediction
+   - Dataset: Cleveland Heart Disease Dataset
+   - Key Models: Logistic Regression, Random Forest, XGBoost
+2. Diabetes Risk Assessment
+   - Dataset: Pima Indians Diabetes Dataset
+   - Key Models: SVM, KNN, MLP
+3. Breast Cancer Classification
+   - Dataset: Breast Cancer Wisconsin (Diagnostic) Dataset
+   - Key Models: SVC, Random Forest, ANN
+4. Chronic Kidney Disease (CKD)
+   - Dataset: Chronic Kidney Disease Dataset
+   - Key Models: Decision Trees, LightGBM
