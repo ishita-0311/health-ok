@@ -1,0 +1,195 @@
+{
+  "features": [
+    {
+      "name": "MDVP:Fo(Hz)",
+      "label": "MDVP Fo(Hz)",
+      "min": 103.54,
+      "max": 230.777,
+      "default": 153.435
+    },
+    {
+      "name": "MDVP:Fhi(Hz)",
+      "label": "MDVP Fhi(Hz)",
+      "min": 116.3,
+      "max": 361.185,
+      "default": 194.788
+    },
+    {
+      "name": "MDVP:Flo(Hz)",
+      "label": "MDVP Flo(Hz)",
+      "min": 68.567,
+      "max": 197.564,
+      "default": 114.139
+    },
+    {
+      "name": "MDVP:Jitter(%)",
+      "label": "MDVP Jitter(%)",
+      "min": 0.002,
+      "max": 0.017,
+      "default": 0.006
+    },
+    {
+      "name": "MDVP:Jitter(Abs)",
+      "label": "MDVP Jitter(Abs)",
+      "min": 0.0,
+      "max": 0.0,
+      "default": 0.0
+    },
+    {
+      "name": "MDVP:RAP",
+      "label": "MDVP RAP",
+      "min": 0.001,
+      "max": 0.009,
+      "default": 0.003
+    },
+    {
+      "name": "MDVP:PPQ",
+      "label": "MDVP PPQ",
+      "min": 0.001,
+      "max": 0.01,
+      "default": 0.004
+    },
+    {
+      "name": "Jitter:DDP",
+      "label": "Jitter DDP",
+      "min": 0.003,
+      "max": 0.028,
+      "default": 0.01
+    },
+    {
+      "name": "MDVP:Shimmer",
+      "label": "MDVP Shimmer",
+      "min": 0.011,
+      "max": 0.068,
+      "default": 0.031
+    },
+    {
+      "name": "MDVP:Shimmer(dB)",
+      "label": "MDVP Shimmer(dB)",
+      "min": 0.102,
+      "max": 0.734,
+      "default": 0.295
+    },
+    {
+      "name": "Shimmer:APQ3",
+      "label": "Shimmer APQ3",
+      "min": 0.005,
+      "max": 0.037,
+      "default": 0.016
+    },
+    {
+      "name": "Shimmer:APQ5",
+      "label": "Shimmer APQ5",
+      "min": 0.006,
+      "max": 0.044,
+      "default": 0.019
+    },
+    {
+      "name": "MDVP:APQ",
+      "label": "MDVP APQ",
+      "min": 0.009,
+      "max": 0.061,
+      "default": 0.025
+    },
+    {
+      "name": "Shimmer:DDA",
+      "label": "Shimmer DDA",
+      "min": 0.016,
+      "max": 0.111,
+      "default": 0.049
+    },
+    {
+      "name": "NHR",
+      "label": "NHR",
+      "min": 0.003,
+      "max": 0.107,
+      "default": 0.027
+    },
+    {
+      "name": "HNR",
+      "label": "HNR",
+      "min": 12.416,
+      "max": 27.23,
+      "default": 21.683
+    },
+    {
+      "name": "RPDE",
+      "label": "RPDE",
+      "min": 0.334,
+      "max": 0.653,
+      "default": 0.501
+    },
+    {
+      "name": "DFA",
+      "label": "DFA",
+      "min": 0.632,
+      "max": 0.815,
+      "default": 0.719
+    },
+    {
+      "name": "spread1",
+      "label": "spread1",
+      "min": -7.311,
+      "max": -3.757,
+      "default": -5.679
+    },
+    {
+      "name": "spread2",
+      "label": "spread2",
+      "min": 0.097,
+      "max": 0.373,
+      "default": 0.227
+    },
+    {
+      "name": "D2",
+      "label": "D2",
+      "min": 1.847,
+      "max": 3.102,
+      "default": 2.394
+    },
+    {
+      "name": "PPE",
+      "label": "PPE",
+      "min": 0.092,
+      "max": 0.373,
+      "default": 0.21
+    }
+  ],
+  "feature_order": [
+    "MDVP:Fo(Hz)",
+    "MDVP:Fhi(Hz)",
+    "MDVP:Flo(Hz)",
+    "MDVP:Jitter(%)",
+    "MDVP:Jitter(Abs)",
+    "MDVP:RAP",
+    "MDVP:PPQ",
+    "Jitter:DDP",
+    "MDVP:Shimmer",
+    "MDVP:Shimmer(dB)",
+    "Shimmer:APQ3",
+    "Shimmer:APQ5",
+    "MDVP:APQ",
+    "Shimmer:DDA",
+    "NHR",
+    "HNR",
+    "RPDE",
+    "DFA",
+    "spread1",
+    "spread2",
+    "D2",
+    "PPE"
+  ],
+  "winner": "keras_ann",
+  "metrics": {
+    "random_forest": {
+      "accuracy": 0.9230769230769231,
+      "f1": 0.9491525423728814,
+      "roc_auc": 0.9706896551724138
+    },
+    "keras_ann": {
+      "accuracy": 0.9487179487179487,
+      "f1": 0.9655172413793104,
+      "roc_auc": 0.9827586206896552
+    }
+  }
+}

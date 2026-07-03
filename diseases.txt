@@ -13,3 +13,6 @@ Supported Diseases and Kaggle Datasets:
 4. Chronic Kidney Disease (CKD)
    - Dataset: Chronic Kidney Disease Dataset
    - Key Models: Decision Trees, LightGBM
+5. Parkinson's Disease
+   - Dataset: UCI Parkinson's Disease Dataset (voice measurements)
+   - Key Models: Random Forest, Keras ANN

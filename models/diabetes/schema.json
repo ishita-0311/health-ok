@@ -1,0 +1,88 @@
+{
+  "features": [
+    {
+      "name": "Pregnancies",
+      "label": "Number of Pregnancies",
+      "min": 0.0,
+      "max": 10.0,
+      "default": 3.819
+    },
+    {
+      "name": "Glucose",
+      "label": "Plasma Glucose Concentration",
+      "min": 79.65,
+      "max": 180.35,
+      "default": 120.909
+    },
+    {
+      "name": "BloodPressure",
+      "label": "Diastolic Blood Pressure (mm Hg)",
+      "min": 44.0,
+      "max": 90.0,
+      "default": 69.443
+    },
+    {
+      "name": "SkinThickness",
+      "label": "Triceps Skin Fold Thickness (mm)",
+      "min": 0.0,
+      "max": 44.0,
+      "default": 20.777
+    },
+    {
+      "name": "Insulin",
+      "label": "2-Hour Serum Insulin (mu U/ml)",
+      "min": 0.0,
+      "max": 276.75,
+      "default": 78.666
+    },
+    {
+      "name": "BMI",
+      "label": "Body Mass Index",
+      "min": 21.59,
+      "max": 44.035,
+      "default": 31.973
+    },
+    {
+      "name": "DiabetesPedigreeFunction",
+      "label": "Diabetes Pedigree Function",
+      "min": 0.141,
+      "max": 1.13,
+      "default": 0.477
+    },
+    {
+      "name": "Age",
+      "label": "Age (years)",
+      "min": 21.0,
+      "max": 58.0,
+      "default": 33.366
+    }
+  ],
+  "feature_order": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age"
+  ],
+  "winner": "keras_ann",
+  "metrics": {
+    "svm": {
+      "accuracy": 0.7532467532467533,
+      "f1": 0.6346153846153846,
+      "roc_auc": 0.7924074074074074
+    },
+    "knn": {
+      "accuracy": 0.7207792207792207,
+      "f1": 0.5904761904761905,
+      "roc_auc": 0.7658333333333333
+    },
+    "keras_ann": {
+      "accuracy": 0.7467532467532467,
+      "f1": 0.6355140186915887,
+      "roc_auc": 0.799074074074074
+    }
+  }
+}

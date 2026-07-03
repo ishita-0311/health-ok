@@ -6,3 +6,7 @@ lightgbm
 matplotlib
 seaborn
 tensorflow
+streamlit
+joblib
+plotly
+pillow

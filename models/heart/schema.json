@@ -1,0 +1,128 @@
+{
+  "features": [
+    {
+      "name": "age",
+      "label": "Age (years)",
+      "min": 40.0,
+      "max": 68.0,
+      "default": 54.289
+    },
+    {
+      "name": "sex",
+      "label": "Sex (1=male, 0=female)",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.682
+    },
+    {
+      "name": "cp",
+      "label": "Chest Pain Type (0-3)",
+      "min": 0.0,
+      "max": 3.0,
+      "default": 0.942
+    },
+    {
+      "name": "trestbps",
+      "label": "Resting Blood Pressure (mm Hg)",
+      "min": 106.1,
+      "max": 164.75,
+      "default": 131.707
+    },
+    {
+      "name": "chol",
+      "label": "Serum Cholesterol (mg/dl)",
+      "min": 175.0,
+      "max": 325.95,
+      "default": 244.884
+    },
+    {
+      "name": "fbs",
+      "label": "Fasting Blood Sugar > 120 mg/dl (1=true, 0=false)",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.14
+    },
+    {
+      "name": "restecg",
+      "label": "Resting ECG results (0-2)",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.545
+    },
+    {
+      "name": "thalach",
+      "label": "Max Heart Rate Achieved",
+      "min": 109.1,
+      "max": 181.95,
+      "default": 150.124
+    },
+    {
+      "name": "exang",
+      "label": "Exercise Induced Angina (1=yes, 0=no)",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.339
+    },
+    {
+      "name": "oldpeak",
+      "label": "ST Depression Induced by Exercise",
+      "min": 0.0,
+      "max": 3.495,
+      "default": 1.072
+    },
+    {
+      "name": "slope",
+      "label": "Slope of Peak Exercise ST Segment (0-2)",
+      "min": 0.0,
+      "max": 2.0,
+      "default": 1.413
+    },
+    {
+      "name": "ca",
+      "label": "Number of Major Vessels Colored (0-4)",
+      "min": 0.0,
+      "max": 3.0,
+      "default": 0.744
+    },
+    {
+      "name": "thal",
+      "label": "Thalassemia (0-3)",
+      "min": 1.0,
+      "max": 3.0,
+      "default": 2.339
+    }
+  ],
+  "feature_order": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "winner": "random_forest",
+  "metrics": {
+    "logistic_regression": {
+      "accuracy": 0.8032786885245902,
+      "f1": 0.8333333333333334,
+      "roc_auc": 0.8690476190476191
+    },
+    "random_forest": {
+      "accuracy": 0.819672131147541,
+      "f1": 0.8533333333333334,
+      "roc_auc": 0.900974025974026
+    },
+    "xgboost": {
+      "accuracy": 0.7704918032786885,
+      "f1": 0.8108108108108109,
+      "roc_auc": 0.8593073593073594
+    }
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "features": [
+    {
+      "name": "age",
+      "label": "Age (years)",
+      "min": 19.0,
+      "max": 74.0,
+      "default": 51.184
+    },
+    {
+      "name": "bp",
+      "label": "Blood Pressure (mm Hg)",
+      "min": 60.0,
+      "max": 100.0,
+      "default": 76.875
+    },
+    {
+      "name": "sg",
+      "label": "Specific Gravity of Urine",
+      "min": 1.01,
+      "max": 1.025,
+      "default": 1.018
+    },
+    {
+      "name": "al",
+      "label": "Albumin Level (0-5)",
+      "min": 0.0,
+      "max": 4.0,
+      "default": 0.878
+    },
+    {
+      "name": "su",
+      "label": "Sugar Level (0-5)",
+      "min": 0.0,
+      "max": 3.0,
+      "default": 0.338
+    },
+    {
+      "name": "bgr",
+      "label": "Blood Glucose Random (mg/dl)",
+      "min": 80.95,
+      "max": 294.05,
+      "default": 142.197
+    },
+    {
+      "name": "bu",
+      "label": "Blood Urea (mg/dl)",
+      "min": 17.0,
+      "max": 162.05,
+      "default": 56.529
+    },
+    {
+      "name": "sc",
+      "label": "Serum Creatinine (mg/dl)",
+      "min": 0.5,
+      "max": 11.905,
+      "default": 3.056
+    },
+    {
+      "name": "sod",
+      "label": "Sodium (mEq/L)",
+      "min": 127.0,
+      "max": 147.0,
+      "default": 137.267
+    },
+    {
+      "name": "pot",
+      "label": "Potassium (mEq/L)",
+      "min": 3.4,
+      "max": 5.305,
+      "default": 4.364
+    },
+    {
+      "name": "hemo",
+      "label": "Hemoglobin (g/dl)",
+      "min": 7.89,
+      "max": 16.8,
+      "default": 12.536
+    },
+    {
+      "name": "pcv",
+      "label": "Packed Cell Volume (%)",
+      "min": 24.0,
+      "max": 52.0,
+      "default": 38.916
+    },
+    {
+      "name": "wc",
+      "label": "White Blood Cell Count (cells/cmm)",
+      "min": 4690.0,
+      "max": 12400.0,
+      "default": 8297.812
+    },
+    {
+      "name": "rc",
+      "label": "Red Blood Cell Count (millions/cmm)",
+      "min": 3.2,
+      "max": 6.105,
+      "default": 4.744
+    },
+    {
+      "name": "rbc",
+      "label": "Red Blood Cells Abnormal (1=yes, 0=no)",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.113
+    },
+    {
+      "name": "pc",
+      "label": "Pus Cell Abnormal (1=yes, 0=no)",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.197
+    },
+    {
+      "name": "pcc",
+      "label": "Pus Cell Clumps Present (1=yes, 0=no)",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.122
+    },
+    {
+      "name": "ba",
+      "label": "Bacteria Present (1=yes, 0=no)",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.062
+    },
+    {
+      "name": "htn",
+      "label": "Hypertension (1=yes, 0=no)",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.366
+    },
+    {
+      "name": "dm",
+      "label": "Diabetes Mellitus (1=yes, 0=no)",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.319
+    },
+    {
+      "name": "cad",
+      "label": "Coronary Artery Disease (1=yes, 0=no)",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.078
+    },
+    {
+      "name": "appet",
+      "label": "Poor Appetite (1=yes, 0=no)",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.194
+    },
+    {
+      "name": "pe",
+      "label": "Pedal Edema (1=yes, 0=no)",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.181
+    },
+    {
+      "name": "ane",
+      "label": "Anemia (1=yes, 0=no)",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.153
+    }
+  ],
+  "feature_order": [
+    "age",
+    "bp",
+    "sg",
+    "al",
+    "su",
+    "bgr",
+    "bu",
+    "sc",
+    "sod",
+    "pot",
+    "hemo",
+    "pcv",
+    "wc",
+    "rc",
+    "rbc",
+    "pc",
+    "pcc",
+    "ba",
+    "htn",
+    "dm",
+    "cad",
+    "appet",
+    "pe",
+    "ane"
+  ],
+  "winner": "lightgbm",
+  "metrics": {
+    "decision_tree": {
+      "accuracy": 0.975,
+      "f1": 0.98,
+      "roc_auc": 0.9733333333333333
+    },
+    "lightgbm": {
+      "accuracy": 0.9875,
+      "f1": 0.98989898989899,
+      "roc_auc": 1.0
+    }
+  }
+}

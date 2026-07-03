@@ -43,6 +43,32 @@ The system incorporates both classical Machine Learning models (for structured/t
   * Gradient Boosting (LightGBM)
 * **Key Metrics:** Accuracy, Confusion Matrix.
 
+### 5. Parkinson's Disease Detection
+* **Dataset:** UCI Parkinson's Disease Dataset (biomedical voice measurements)
+* **Objective:** Detect Parkinson's disease from voice features such as jitter, shimmer, and harmonic-to-noise ratio.
+* **Models Used:**
+  * Random Forest Classifier
+  * Artificial Neural Network (Keras)
+* **Key Metrics:** Accuracy, F1-Score, ROC-AUC.
+
+---
+
+## 🖥️ How to Run
+
+1. Install dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+2. Train all models (downloads/generates data under `data/raw/` and saves trained models + scalers + schemas under `models/<disease>/`):
+   ```
+   python train/train_all.py
+   ```
+3. Launch the Streamlit app:
+   ```
+   streamlit run app/Home.py
+   ```
+   This opens a multipage app with a Dashboard (EDA), Prediction, and About page for all 5 diseases.
+
 ---
 
 ## 🧠 Deep Learning Architectures
